@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan</title>
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <a href="index.html"><font color="black">Beranda</font></a> |
+        <a href="produk.html"><font color="black">Produk</font></a> | 
+        <a href="transaksi.html"><font color="black">Transaksi</font></a> | 
+        <a href="tentang.html"><font color="black">Tentang</font></a> 
+    </nav>
+
+    <!-- Judul Formulir -->
+    <h1 align="center">Form Pemesanan</h1>
+
+    <!-- Formulir Pemesanan -->
+    <div align="center">
+        <form action="/submit" method="post">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" rows="4" cols="30" required></textarea><br><br>
+            
+            <label for="produk">Produk:</label><br>
+            <input type="text" id="produk" name="produk" required><br><br>
+            
+            <label for="jumlah">Jumlah:</label><br>
+            <input type="number" id="jumlah" name="jumlah" min="1" required><br><br>
+            
+            <button type="submit">Pesan</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p align="center"><font color="black">© 2025 AdorArror</font></p>
+    </footer>
+</body>
+</html>
